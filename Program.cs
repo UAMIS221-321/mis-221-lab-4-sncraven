@@ -1,8 +1,13 @@
-﻿string Full = GetFull();
-string Partial = GetPartial();
-
-static string GetFull() {
-    System.Console.WriteLine("how man rows are there");
-    return Console.ReadLine();
-        
+﻿System.Console.WriteLine("Enter the Input Number");
+int count = int.Parse(Console.ReadLine());
+for (int i=0; i<=count; i++) {
+    for (int j=0; j<=i; j++) {
+        Console.Write("*");
+    }
+    Console.Write("\n");
 }
+
+
+    
+
+    
